@@ -1,90 +1,135 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
-      </div>
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
-      </div>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
-    </div>
-  </footer>
-</body>
-</html>
+<!DOCTYPE HTML>
+
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+     License, v. 2.0. If a copy of the MPL was not distributed with this file,
+     You can obtain one at http://mozilla.org/MPL/2.0/.  -->
+
+<html lang=en>
+ <head>
+  <meta charset="utf-8" />
+  
+  <title>$APPNAME - Privacy Policy</title>
+   <!--Make sure to put you app name in the page title-->
+  
+  <link href="privacy-policy-updates.xml" type="application/rss+xml" title="$APPNAME Privacy Policy Updates" rel="alternate">
+   <!--It's a good idea to provide an RSS feed of privacy policy updates so that users don't have to keep checking back to see if anything has changed. Especially if your feed doesn't change regularly, it doesn't take much work to update it by hand whenever you make a change. Of course, whenever you make a large change, it's still a good idea to push a notice out to your users, even if you do have an RSS feed. Make sure to remove the RSS section below if you don't use an update feed.-->
+   
+  <link rel="stylesheet" href="css/style.css" media="all" type="text/css">
+  
+  </head>
+  
+ <body>
+
+   <header>
+    <h1>$APPNAME Privacy Policy</h1>
+    </header>
+
+   <nav>
+    <h1 id="contents">Contents</h1>
+
+     <ul>
+     <li><a href="#personal-info">Personal info</a>
+      <ul><li><a href="#misc_children">Children</a></li></ul>
+      </li>
+     
+     <li><a href="#collection">Collection</a>
+      <ul><li><a href="#collection_tracking">Tracking technologies</a></li></ul>
+      </li>
+      
+     <li><a href="#use">Use</a>
+      </li>
+    
+     <li><a href="#disclosure">Disclosure</a>
+      <ul>
+       <li><a href="#disclosure_partners">Partners</a></li>
+       <li><a href="#disclosure_legal">Legal process</a></li>
+       </ul></li>
+      
+     <li><a href="#storage">Storage</a>
+      <ul>
+       <li><a href="#storage_location">Where your info lives</a></li>
+       <li><a href="#storage_duration">How long we keep your info</a></li>
+       </ul></li>
+      
+    <li><a href="#misc">About</a>
+     <ul><li><a href="#choice">Your choices</a></li>
+      <li><a href="#change">Changes to this policy</a></li>
+      <li><a href="#contact">Contact us</a></li>
+      </ul></li>
+      
+     </ul>
+    </nav>
+   
+   <article>
+
+    <nav class="to-top"><a href="#contents">back to top</a></nav>
+
+    <section>
+
+     <h1 id="personal-info">Personal info</h1>
+
+      <h2 id="misc_children">Children</h2>
+
+     </section>
+   
+    <nav class="to-top"><a href="#contents">back to top</a></nav>
+   
+    <section>
+    
+     <h1 id="collection">How we collect info</h1>
+
+      <h2 id="collection_tracking">Tracking technologies</h2>
+
+     </section>
+
+    <nav class="to-top"><a href="#contents">back to top</a></nav>
+
+    <section>
+
+     <h1 id="use">How we use your info</h1>
+
+     </section>
+
+    <nav class="to-top"><a href="#contents">back to top</a></nav>
+
+    <section>
+
+     <h1 id="disclosure">When we share your info</h1>
+
+      <h2 id="disclosure_partners">Our Partners</h2>
+
+      <h2 id="disclosure_legal">Legal process</h2>
+
+     </section>
+
+    <nav class="to-top"><a href="#contents">back to top</a></nav>
+
+    <section>
+
+     <h1 id="storage">How we store your info</h1>
+
+      <h2 id="storage_location">Where your info lives</h2>
+
+      <h2 id="storage_duration">How long we keep your info</h2>
+
+     </section>
+
+    <nav class="to-top"><a href="#contents">back to top</a></nav>
+
+    <section>
+
+     <h1 id="misc">About</h1>
+
+      <h2 id="misc_choice">Your choices</h2>
+
+      <h2 id="misc_changes">Changes</h2>
+
+      <h2 id="misc_contact">Contact us</h2>
+
+     </section>
+
+    </article>
+
+  </body>
+
+ </html>
